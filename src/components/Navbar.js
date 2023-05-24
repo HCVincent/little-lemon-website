@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className="flex text-primary justify-between h-24 w-4/5 text-center items-center">
-      <img alt="logo" src={logo} className="h-full w-48" />
+      <Link to="/">
+        <img
+          alt="logo"
+          src={logo}
+          className="h-full w-48 rounded hover:border hover:border-gray-200 p-2"
+        />
+      </Link>
       <div className="hidden  md:flex space-x-1 ">
         <button className="btn p-3 bg-white border-0 text-primary hover:bg-primary hover:text-secondary ">
           <Link to="/">Home</Link>
