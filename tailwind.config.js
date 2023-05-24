@@ -7,6 +7,10 @@ module.exports = {
         primary: "#495E57",
         secondary: "#F4CE14",
       },
+      fontFamily: {
+        primary: ["Georgia"],
+        secondary: ["Karla"],
+      },
     },
   },
   plugins: [require("daisyui")],
