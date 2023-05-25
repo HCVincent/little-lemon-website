@@ -13,24 +13,36 @@ export default function Navbar() {
         />
       </Link>
       <div className="hidden  md:flex space-x-1 ">
-        <button className="btn p-3 bg-white border-0 text-primary hover:bg-primary hover:text-secondary ">
-          <Link to="/">Home</Link>
-        </button>
-        <button className="btn p-3 bg-white border-0 text-primary hover:bg-primary hover:text-secondary">
-          <Link to="/">About</Link>
-        </button>
-        <button className="btn p-3 bg-white border-0 text-primary hover:bg-primary hover:text-secondary">
-          <Link to="/">Menu</Link>
-        </button>
-        <button className="btn p-3 bg-white border-0 text-primary hover:bg-primary hover:text-secondary">
-          <Link to="/reservations">Reservations</Link>
-        </button>
-        <button className="btn p-3 bg-white border-0 text-primary hover:bg-primary hover:text-secondary">
-          <Link to="/">Order Online</Link>
-        </button>
-        <button className="btn p-3 bg-white border-0 text-primary hover:bg-primary hover:text-secondary">
-          <Link to="/">Login</Link>
-        </button>
+        <Link to="/">
+          <button className="btn p-3 capitalize bg-white border-0 text-primary hover:bg-primary hover:text-secondary ">
+            Home
+          </button>
+        </Link>
+        <Link to="/">
+          <button className="btn p-3 capitalize bg-white border-0 text-primary hover:bg-primary hover:text-secondary">
+            About
+          </button>
+        </Link>
+        <Link to="/">
+          <button className="btn p-3 capitalize bg-white border-0 text-primary hover:bg-primary hover:text-secondary">
+            Menu
+          </button>
+        </Link>
+        <Link to="/reservations">
+          <button className="btn p-3 capitalize bg-white border-0 text-primary hover:bg-primary hover:text-secondary">
+            Reservations
+          </button>
+        </Link>
+        <Link to="/">
+          <button className="btn p-3 capitalize bg-white border-0 text-primary hover:bg-primary hover:text-secondary">
+            Order Online
+          </button>
+        </Link>
+        <Link to="/">
+          <button className="btn p-3 capitalize bg-white border-0 text-primary hover:bg-primary hover:text-secondary">
+            Login
+          </button>
+        </Link>
       </div>
       <div className="dropdown dropdown-left flex md:hidden">
         <label

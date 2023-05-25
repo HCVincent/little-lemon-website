@@ -17,7 +17,7 @@ export default function Hero() {
               tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <button className="btn  bg-secondary border-0 text-primary hover:bg-white hover:text-secondary ">
+          <button className="btn w-[400px] capitalize bg-secondary border-0 text-primary hover:bg-white hover:text-secondary ">
             <Link to="/reservations">Reserve a table</Link>
           </button>
         </div>
